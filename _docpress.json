@@ -213,7 +213,24 @@
               {
                 "title": "Amazon Web Services",
                 "depth": 2,
-                "id": "amazon-web-services"
+                "id": "amazon-web-services",
+                "headings": [
+                  {
+                    "title": "Glue",
+                    "depth": 3,
+                    "id": "glue"
+                  },
+                  {
+                    "title": "Lambda",
+                    "depth": 3,
+                    "id": "lambda"
+                  },
+                  {
+                    "title": "Data Pipeline",
+                    "depth": 3,
+                    "id": "data-pipeline"
+                  }
+                ]
               }
             ]
           },
@@ -1156,7 +1173,24 @@
         {
           "title": "Amazon Web Services",
           "depth": 2,
-          "id": "amazon-web-services"
+          "id": "amazon-web-services",
+          "headings": [
+            {
+              "title": "Glue",
+              "depth": 3,
+              "id": "glue"
+            },
+            {
+              "title": "Lambda",
+              "depth": 3,
+              "id": "lambda"
+            },
+            {
+              "title": "Data Pipeline",
+              "depth": 3,
+              "id": "data-pipeline"
+            }
+          ]
         }
       ]
     },
