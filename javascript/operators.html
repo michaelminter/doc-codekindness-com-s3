@@ -52,6 +52,8 @@
                       </li>
                       <li class="heading-item -depth-2"><a class="hlink link-optional-chaining" href="#optional-chaining">Optional Chaining</a>
                       </li>
+                      <li class="heading-item -depth-2"><a class="hlink link-nullish-coalescing-operator" href="#nullish-coalescing-operator">nullish Coalescing Operator</a>
+                      </li>
                     </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-javascriptproperties" href="../javascript/properties.html">Properties</a>
@@ -115,6 +117,15 @@ obj.arr?.[index]
 obj.func?.(args)
 </code></pre>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining</a></p>
+<h2 id="nullish-coalescing-operator">nullish Coalescing Operator</h2>
+<p>In JavaScript, if a certain value is falsy (like <code>null</code>, <code>undefined</code>, <code>0</code>, <code>&apos;&apos;</code>, <code>NaN</code>), we can use the or (<code>||</code>) conditional to provide a fallback value.</p>
+<p>It will return its right hand operand when its left hand operand is <code>null</code> or <code>undefined</code>. Otherwise it will return its left hand side operand:</p>
+<pre><code class="lang-js"><span class="pl-c1">null</span> ?? <span class="pl-s">&apos;fallback&apos;</span>;
+<span class="pl-c">// &quot;fallback&quot;</span>
+
+<span class="hljs-number">0</span> ?? <span class="hljs-number">42</span>;
+<span class="pl-c">// 0</span>
+</code></pre>
 
         </div>
         <div class="footer-nav">
