@@ -50,6 +50,8 @@
                     <ul class="headings heading-list">
                       <li class="heading-item -depth-2"><a class="hlink link-spread" href="#spread">Spread</a>
                       </li>
+                      <li class="heading-item -depth-2"><a class="hlink link-optional-chaining" href="#optional-chaining">Optional Chaining</a>
+                      </li>
                     </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-javascriptproperties" href="../javascript/properties.html">Properties</a>
@@ -104,6 +106,15 @@
 <h2 id="spread">Spread</h2>
 <p>Spread syntax <code>(...)</code> allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.</p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax</a></p>
+<h2 id="optional-chaining">Optional Chaining</h2>
+<p>The optional chaining operator (<code>?.</code>) enables you to read the value of a property located deep within a chain of connected objects without having to check that each reference in the chain is valid.</p>
+<p>The <code>?.</code> operator is like the <code>.</code> chaining operator, except that instead of causing an error if a reference is nullish (<code>null</code> or <code>undefined</code>), the expression short-circuits with a return value of undefined. When used with function calls, it returns <code>undefined</code> if the given function does not exist.</p>
+<pre><code class="lang-js">obj.val?.prop
+obj.val?.[expr]
+obj.arr?.[index]
+obj.func?.(args)
+</code></pre>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining</a></p>
 
         </div>
         <div class="footer-nav">
